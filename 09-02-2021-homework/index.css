@@ -1,0 +1,26 @@
+li {
+  margin-top: 1px;
+  list-style: none;
+  background-color: #0D6EFD;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+  width: 36%;
+  border: 1px solid blue;
+  cursor: pointer;
+  display: block;
+  text-align: left;
+  position: relative;
+}
+
+li::after {
+  font-weight: bolder;
+  font-size: 20px;
+  position: absolute;
+  content: "X";
+  width: 5px;
+  height: 5px;
+  color: #909090;
+  right: 15px;
+}
+/*# sourceMappingURL=index.css.map */
